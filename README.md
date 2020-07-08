@@ -1,6 +1,7 @@
 # Modelo de Site com Timeline
 
 Este projeto apresenta um modelo de site one page com uma página de timeline.
+Visualize e teste o site [acessando este link](https://site-timeline.herokuapp.com/).
 
 ## Estrutura de Pastas
 
