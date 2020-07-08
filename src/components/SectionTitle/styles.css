@@ -1,0 +1,12 @@
+.section-title h2{
+    font-weight: 600;
+}
+
+.section-title .divider{
+    text-align: center;
+    width: 8%;
+    height: 4px;
+    background: var(--primary) no-repeat center center;
+    margin: 5px 0 10px;
+    display: inline-block;
+}

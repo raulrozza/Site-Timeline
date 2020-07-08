@@ -1,0 +1,20 @@
+.services-section{
+    padding: 10px 0;
+}
+
+.services-section .items-row{
+    padding: 60px 0;
+}
+
+.services-section .item-box-info{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.services-section .item-box-info p{
+    font-size: 18px;
+}
+
+.services-section .rotation-activator:hover .item-box-info{
+    color: var(--text-hover);
+}

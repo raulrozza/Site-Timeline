@@ -1,0 +1,80 @@
+.timeline-container{
+    background: url('../../assets/img/logo_big.png') fixed no-repeat;
+    background-color: var(--secondary);
+    position: relative;
+    min-height: 100%;
+}
+.timeline-container:before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+    content: '';
+}
+
+.timeline-container .container{
+    position: relative;
+    padding: 16px 0;
+}
+
+.timeline-container .toggle-view-button{
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    height: 24px;
+    width: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.timeline-container .toggle-view-button:after{
+    content: " ";
+    margin: -2px;
+    height: calc(100% + 4px);
+    width: calc(50% + 4px);
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.timeline-container .toggle-view-button.one:after{
+    align-self: flex-end;
+    background-color: var(--primary);
+}
+
+.timeline-container .toggle-view-button.two:after{
+    align-self: flex-start;
+    background-color: var(--secondary);
+}
+
+.timeline-container .go-back {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.timeline-container .go-back a{
+    color: var(--secondary);
+}
+
+@media (max-width: 1169px){
+    .timeline-container .toggle-view-button{
+        display: none;
+    }
+}

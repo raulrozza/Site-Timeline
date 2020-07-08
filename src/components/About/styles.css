@@ -1,0 +1,17 @@
+.about-section{
+    margin: 40px 0;
+    padding: 10px 0;
+}
+
+.about-section .items-row{
+    padding: 30px 0;
+}
+
+.about-section .item-box-info{
+    text-align: left;
+    margin-left: 25px;
+}
+
+.about-section .rotation-activator:hover .item-box-info{
+    color: var(--text-hover);
+}

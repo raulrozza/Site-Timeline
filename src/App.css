@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+:root{
+  --text-hover: #9D6381;
+  --text-contrast: #FDECEF;
+  --primary: #7CDEDC;
+  --secondary: #CFD11A;
+  --body-color: #0F110C;
+  --scrollbar-first: #459b99;
+  --scrollbar-second: #459b9954;
+}
+
+body{
+  color: var(--body-color);
+}
+
+body, html, #root{
+  height: 100%;
+}
+
+/*#####################
+
+  CUSTOM STYLES
+
+#######################*/
+
+.subtitle{
+  letter-spacing: 2px;
+  padding: 0 5px;
+  margin-top: 10px;
+}

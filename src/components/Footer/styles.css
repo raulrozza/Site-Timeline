@@ -1,0 +1,13 @@
+.page-footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--text-contrast);
+}
+
+.page-footer p{
+    margin-bottom: 0px;
+}
